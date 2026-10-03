@@ -121,6 +121,15 @@ const products = [
     image: "images/toys/bskit.jpeg",
     description: "Engineering tool kit."
 }
+{
+    id: 11,
+    name: "Big Train set",
+    category: "toys",
+    price: 90,
+    discount: "10% OFF",
+    image: "images/toys/btrain.jpeg",
+    description: "Track Game."
+}
 ];
 
 
