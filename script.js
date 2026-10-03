@@ -116,7 +116,7 @@ const products = [
     id: 10,
     name: "Educational",
     category: "toys",
-    price: 79,
+    price: 150,
     discount: "10% OFF",
     image: "images/toys/bskit.jpeg",
     description: "Engineering tool kit."
@@ -148,6 +148,34 @@ const products = [
     image: "images/toys/rheli.jpeg",
     description: "Remote control helicopter."
 },
+{
+    id: 14,
+    name: "Science Kit",
+    category: "toys",
+    price: 79,
+    discount: "20% OFF",
+    image: "images/toys/sskit.jpeg",
+    description: "Engineering tool kit."
+},
+{
+    id: 15,
+    name: "Train set",
+    category: "toys",
+    price: 60,
+    discount: "20% OFF",
+    image: "images/toys/strain.jpeg",
+    description: "Train set for children."
+},
+{
+    id: 16,
+    name: "Taxi",
+    category: "toys",
+    price: 230,
+    discount: "15% OFF",
+    image: "images/toys/taxi.jpeg",
+    description: "Kolkata famous yellow taxi."
+},
+
 ];
 
 
