@@ -23,7 +23,7 @@ const products = [
 
     {
         id: 1,
-        name: "Cute Toy",
+        name: "Remote control car",
         category: "toys",
         price: 199,
         discount: "10% OFF",
@@ -31,28 +31,12 @@ const products = [
         description: "Fun and colorful toy for children."
     },
 
+    
+
+ 
+
     {
         id: 2,
-        name: "Kids Toy",
-        category: "toys",
-        price: 249,
-        discount: "15% OFF",
-        image: "images/toys/toy2.png",
-        description: "Enjoyable toy for kids."
-    },
-
-    {
-        id: 3,
-        name: "Educational Toy",
-        category: "toys",
-        price: 299,
-        discount: "10% OFF",
-        image: "images/toys/toy3.png",
-        description: "Creative and educational toy."
-    },
-
-    {
-        id: 4,
         name: "Unicon Box Set",
         category: "stationery",
         price: 120,
@@ -62,7 +46,7 @@ const products = [
     },
 
     {
-        id: 5,
+        id: 3,
         name: "Lion Printed Box",
         category: "stationery",
         price: 150,
@@ -72,7 +56,7 @@ const products = [
     },
 
     {
-        id: 6,
+        id: 4,
         name: "LCD Panel",
         category: "stationery",
         price: 180,
@@ -82,7 +66,7 @@ const products = [
     },
 
     {
-        id: 7,
+        id: 5,
         name: "Glass Bottle",
         category: "gifts",
         price: 150,
@@ -92,7 +76,7 @@ const products = [
     },
 
     {
-        id: 8,
+        id: 6,
         name: "Sports Car",
         category: "gifts",
         price: 250,
@@ -103,7 +87,7 @@ const products = [
 
    
 {
-    id: 9,
+    id: 7,
     name: "Piano",
     category: "gifts",
     price: 300,
@@ -113,7 +97,7 @@ const products = [
 },
 
 {
-    id: 10,
+    id: 8,
     name: "Educational",
     category: "toys",
     price: 150,
@@ -122,7 +106,7 @@ const products = [
     description: "Engineering tool kit."
 },
 {
-    id: 11,
+    id: 9,
     name: "Big Train set",
     category: "toys",
     price: 90,
@@ -131,7 +115,7 @@ const products = [
     description: "Track Game."
 },
 {
-    id: 12,
+    id: 10,
     name: "Ramp Car",
     category: "toys",
     price: 99,
@@ -140,7 +124,7 @@ const products = [
     description: "Ramp car game set."
 },
 {
-    id: 13,
+    id: 11,
     name: "Helicopter",
     category: "toys",
     price: 250,
@@ -149,7 +133,7 @@ const products = [
     description: "Remote control helicopter."
 },
 {
-    id: 14,
+    id: 12,
     name: "Science Kit",
     category: "toys",
     price: 79,
@@ -158,7 +142,7 @@ const products = [
     description: "Engineering tool kit."
 },
 {
-    id: 15,
+    id: 13,
     name: "Train set",
     category: "toys",
     price: 60,
@@ -167,7 +151,7 @@ const products = [
     description: "Train set for children."
 },
 {
-    id: 16,
+    id: 14,
     name: "Taxi",
     category: "toys",
     price: 230,
