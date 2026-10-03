@@ -120,7 +120,7 @@ const products = [
     discount: "10% OFF",
     image: "images/toys/bskit.jpeg",
     description: "Engineering tool kit."
-}
+},
 {
     id: 11,
     name: "Big Train set",
@@ -129,7 +129,25 @@ const products = [
     discount: "10% OFF",
     image: "images/toys/btrain.jpeg",
     description: "Track Game."
-}
+},
+{
+    id: 12,
+    name: "Ramp Car",
+    category: "toys",
+    price: 99,
+    discount: "10% OFF",
+    image: "images/toys/rampcar.jpeg",
+    description: "Ramp car game set."
+},
+{
+    id: 13,
+    name: "Helicopter",
+    category: "toys",
+    price: 250,
+    discount: "20% OFF",
+    image: "images/toys/rheli.jpeg",
+    description: "Remote control helicopter."
+},
 ];
 
 
