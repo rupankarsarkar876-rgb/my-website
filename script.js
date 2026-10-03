@@ -101,25 +101,26 @@ const products = [
         description: "Special gift for your kids."
     },
 
-    {
-        id: 9,
-        name: "Piano",
-        category: "gifts",
-        price: 300,
-        discount: "5% OFF",
-        image: "images/gifts/p.png",
-        description: "Melodious gift item."
-    }
-    {
-        id: 10,
-        name: "Educational",
-        category: "toys",
-        price: 79,
-        discount: "10% OFF",
-        image: "images/toys/bskit.jpeg",
-        description: "Engineering tool kit."
-    },
+   
+{
+    id: 9,
+    name: "Piano",
+    category: "gifts",
+    price: 300,
+    discount: "5% OFF",
+    image: "images/gifts/p.png",
+    description: "Melodious gift item."
+},
 
+{
+    id: 10,
+    name: "Educational",
+    category: "toys",
+    price: 79,
+    discount: "10% OFF",
+    image: "images/toys/bskit.jpeg",
+    description: "Engineering tool kit."
+}
 ];
 
 
