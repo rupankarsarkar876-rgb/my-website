@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Product Details - Rup's Art Supply</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER
+         ===================================================== -->
+
+    <header class="header">
+
+        <div class="logo-area">
+
+            <img
+                src="images/logo.jpeg"
+                alt="Rup's Art Supply Logo">
+
+            <h2>Rup's Art Supply</h2>
+
+        </div>
+
+
+        <nav class="main-navigation">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="products.html?category=toys">
+                Toys
+            </a>
+
+            <a href="products.html?category=stationery">
+                Daily Stationery
+            </a>
+
+            <a href="products.html?category=gifts">
+                Gift Items
+            </a>
+
+            <a href="wishlist.html">
+                ❤️ Wishlist
+                <span id="wishlistCount">0</span>
+            </a>
+
+            <a href="cart.html">
+                🛒 Cart
+                <span id="cartCount">0</span>
+            </a>
+
+            <a href="login.html">
+                Login
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+         ===================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             PRODUCT DETAILS
+             ================================================= -->
+
+        <section class="product-details-section">
+
+            <div
+                id="productDetails"
+                class="product-details">
+
+                <!-- JavaScript loads product here -->
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             ORDER NOW
+             ================================================= -->
+
+        <section
+            id="orderSection"
+            class="order-section"
+            style="display: none;">
+
+            <div class="order-box">
+
+
+                <!-- ORDER TITLE -->
+
+                <h2>
+                    ⚡ Order Now
+                </h2>
+
+
+                <p class="order-subtitle">
+                    Pre-payment required. UPI payment only.
+                </p>
+
+
+                <!-- =================================================
+                     PRODUCT SUMMARY
+                     ================================================= -->
+
+                <div class="order-product-summary">
+
+                    <h3 id="orderProductName">
+                        Product Name
+                    </h3>
+
+
+                    <p>
+                        Price:
+                        <strong
+                            id="orderProductPrice"
+                            data-price="0">
+                            ₹0
+                        </strong>
+                    </p>
+
+
+                    <!-- QUANTITY -->
+
+                    <div class="order-quantity">
+
+                        <label>
+                            Quantity
+                        </label>
+
+
+                        <div class="quantity-box">
+
+                            <button
+                                type="button"
+                                onclick="decreaseOrderQuantity()">
+                                −
+                            </button>
+
+
+                            <input
+                                type="number"
+                                id="orderQuantity"
+                                value="1"
+                                min="1"
+                                readonly>
+
+
+                            <button
+                                type="button"
+                                onclick="increaseOrderQuantity()">
+                                +
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- TOTAL -->
+
+                    <div class="order-total-row">
+
+                        <span>
+                            Total Amount:
+                        </span>
+
+
+                        <strong id="orderTotal">
+                            ₹0
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     CUSTOMER DETAILS
+                     ================================================= -->
+
+                <div class="customer-form">
+
+                    <h3>
+                        Customer Details
+                    </h3>
+
+
+                    <label for="customerName">
+                        Full Name
+                    </label>
+
+
+                    <input
+                        type="text"
+                        id="customerName"
+                        placeholder="Enter your full name"
+                        autocomplete="name">
+
+
+                    <label for="customerPhone">
+                        Mobile Number
+                    </label>
+
+
+                    <input
+                        type="tel"
+                        id="customerPhone"
+                        placeholder="Enter your mobile number"
+                        inputmode="numeric"
+                        autocomplete="tel">
+
+
+                    <label for="customerAddress">
+                        Delivery Address
+                    </label>
+
+
+                    <textarea
+                        id="customerAddress"
+                        rows="4"
+                        placeholder="Enter complete delivery address"
+                        autocomplete="street-address"></textarea>
+
+                </div>
+
+
+                <!-- =================================================
+                     UPI PAYMENT
+                     ================================================= -->
+
+                <div class="upi-payment-box">
+
+                    <h3>
+                        💳 UPI Pre-Payment
+                    </h3>
+
+
+                    <p>
+                        Only UPI payment is available.
+                    </p>
+
+
+                    <p>
+                        Please pay the total amount
+                        before placing the order.
+                    </p>
+
+
+                    <div class="upi-id-box">
+
+                        <span>
+                            UPI ID
+                        </span>
+
+
+                        <strong>
+                            7439436681@ybl
+                        </strong>
+
+                    </div>
+
+
+                    <button
+                        type="button"
+                        class="pay-upi-button"
+                        onclick="payUsingUPI()">
+
+                        💳 Pay Now via UPI
+
+                    </button>
+
+
+                    <p class="payment-note">
+
+                        After completing the payment,
+                        enter your UPI Transaction ID /
+                        UTR number below.
+
+                    </p>
+
+
+                    <label for="transactionId">
+                        UPI Transaction ID / UTR Number
+                    </label>
+
+
+                    <input
+                        type="text"
+                        id="transactionId"
+                        placeholder="Enter your UTR / Transaction ID">
+
+                </div>
+
+
+                <!-- =================================================
+                     PLACE ORDER
+                     ================================================= -->
+
+                <button
+                    type="button"
+                    class="place-order-button"
+                    onclick="placeOrder()">
+
+                    ✅ Place Order
+
+                </button>
+
+
+                <p class="prepayment-warning">
+
+                    🔒 This order requires full pre-payment
+                    through UPI.
+
+                </p>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer>
+
+        <p>
+            © 2026 Rup's Art Supply.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Products - Rup's Art Supply</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="logo-area">
+
+            <img
+                src="images/logo.jpeg"
+                alt="Rup's Art Supply Logo"
+            >
+
+            <h2>Rup's Art Supply</h2>
+
+        </div>
+
+
+        <nav class="main-navigation">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="products.html?category=toys">
+                Toys
+            </a>
+
+            <a href="products.html?category=stationery">
+                Daily Stationery
+            </a>
+
+            <a href="products.html?category=gifts">
+                Gift Items
+            </a>
+
+            <a href="wishlist.html">
+                ❤️ Wishlist
+                <span id="wishlistCount">0</span>
+            </a>
+
+            <a href="cart.html">
+                🛒 Cart
+                <span id="cartCount">0</span>
+            </a>
+
+            <a href="login.html">
+                Login
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ================= PRODUCTS PAGE ================= -->
+
+    <main class="products-page">
+
+
+        <!-- ================= TITLE ================= -->
+
+        <div class="products-page-heading">
+
+            <h1 id="pageTitle">
+                Our Products
+            </h1>
+
+
+            <!-- ================= SEARCH ================= -->
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="🔍 Search products..."
+                    autocomplete="off"
+                >
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ================= PRODUCT GRID ================= -->
+
+        <div
+            id="productContainer"
+            class="product-grid"
+        >
+
+            <!-- Products will be added by JavaScript -->
+
+        </div>
+
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Rup's Art Supply.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
