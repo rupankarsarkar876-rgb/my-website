@@ -159,15 +159,7 @@ const products = [
     image: "images/toys/taxi.jpeg",
     description: "Kolkata famous yellow taxi."
 },
-{
-        id: 15,
-        name: "Mechanical Pencil",
-        category: "toys",
-        price: 15,
-        discount: "10% OFF",
-        image: "images/toys/lk.jpeg",
-        description: "Make your writing easy with this mechanical pencil."
-    },
+
 
 ];
 
