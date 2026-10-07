@@ -165,7 +165,7 @@ const products = [
         category: "toys",
         price: 15,
         discount: "No Discount",
-        image: "images/stationery/lk.jpeg",
+        image: "images/toys/lk.jpeg",
         description: "Make your writing easy with this mechanical pencil."
     },
 
