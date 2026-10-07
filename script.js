@@ -159,7 +159,15 @@ const products = [
     image: "images/toys/taxi.jpeg",
     description: "Kolkata famous yellow taxi."
 },
-
+{
+    id: 15,
+    name: "DKit",
+    category: "stationery",
+    price: 100,
+    discount: "10% OFF",
+    image: "images/stationery/dkit.jpeg",
+    description: "Useful stationery kit for school and daily work."
+},
 
 ];
 
