@@ -321,7 +321,7 @@ const products = [
     discount: "10% OFF",
     image: "images/stationery/32.jpeg",
     description: "Doms gift set for art enthusiasts."
-},
+}
 ];
 
 
