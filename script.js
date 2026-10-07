@@ -231,6 +231,7 @@ const products = [
     image: "images/stationery/22.jpeg",
     description: "Stapler for office use."
 },
+
 {
     id: 23,
     name: "Mechanical Pencil",
