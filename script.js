@@ -241,6 +241,87 @@ const products = [
     image: "images/stationery/23.jpeg",
     description: "Mechanical pencil for writing."
 },
+{
+    id: 24,
+    name: "Scratch Book",
+    category: "stationery",
+    price: 80,
+    discount: "10% OFF",
+    image: "images/stationery/24.jpeg",
+    description: "Scratch book for drawing and sketching."
+},
+{
+    id: 25,
+    name: " Camel 25shades colour",
+    category: "stationery",
+    price: 79,
+    discount: "10% OFF",
+    image: "images/stationery/25.jpeg",
+    description: "Camel 25shades colour."
+},
+{
+    id: 26,
+    name: "Camel 50shades colour",
+    category: "stationery",
+    price: 149,
+    discount: "10% OFF",
+    image: "images/stationery/26.jpeg",
+    description: "Camel 50shades colour."
+},
+{
+    id: 27,
+    name: "All birthday party items",
+    category: "stationery",
+    price: 200,
+    discount: "10% OFF",
+    image: "images/stationery/27.jpeg",
+    description: "All birthday party items."
+},
+{
+    id: 28,
+    name: "Sketch pen",
+    category: "stationery",
+    price: 15,
+    discount: "10% OFF",
+    image: "images/stationery/28.jpeg",
+    description: "Sketch pen for drawing."
+},
+{
+    id: 29,
+    name: "Doms Pencil colou",
+    category: "stationery",
+    price: 27,
+    discount: "2% OFF",
+    image: "images/stationery/29.jpeg",
+    description: "Doms pencil color."
+},
+{
+    id: 30,
+    name: "Camel 15shades colour",
+    category: "stationery",
+    price: 49,
+    discount: "10% OFF",
+    image: "images/stationery/30.jpeg",
+    description: "Camel 15shades colour."
+},
+{
+    id: 31,
+    name: "Colour Palatte",
+    category: "stationery",
+    price: 35,
+    discount: "10% OFF",
+    image: "images/stationery/31.jpeg",
+    description: "Colour palette for artists."
+},
+{
+    id: 32,
+    name: "Doms Gift Set",
+    category: "stationery",
+    price: 49,
+    discount: "10% OFF",
+    image: "images/stationery/32.jpeg",
+    description: "Doms gift set for art enthusiasts."
+},
 ];
 
 
