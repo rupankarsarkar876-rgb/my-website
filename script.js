@@ -163,12 +163,83 @@ const products = [
     id: 15,
     name: "DKit",
     category: "stationery",
-    price: 100,
+    price: 20,
     discount: "10% OFF",
     image: "images/stationery/dkit.jpeg",
     description: "Useful stationery kit for school and daily work."
 },
-
+{
+    id: 16,
+    name: "LCD Board",
+    category: "stationery",
+    price: 80,
+    discount: "10% OFF",
+    image: "images/stationery/16.jpeg",
+    description: "Useful stationery kit for school and daily work."
+},
+{
+    id: 17,
+    name: "Hello Kitty Gift Box",
+    category: "stationery",
+    price: 119,
+    discount: "10% OFF",
+    image: "images/stationery/17.jpeg",
+    description: "Hello kitty gift box."
+},
+{
+    id: 18,
+    name: "Cmel sketch pencil set",
+    category: "stationery",
+    price: 60,
+    discount: "20% OFF",
+    image: "images/stationery/18.jpeg",
+    description: "Useful sketch pencil set."
+},
+{
+    id: 19,
+    name: "Blending Kit",
+    category: "stationery",
+    price: 50,
+    discount: "5% OFF",
+    image: "images/stationery/19.jpeg",
+    description: "Useful blending kit."
+},
+{
+    id: 20,
+    name: "Doms My Pencil kit",
+    category: "stationery",
+    price: 15,
+    discount: "19% OFF",
+    image: "images/stationery/20.jpeg",
+    description: "Useful pencil kit."
+},
+{
+    id: 21,
+    name: "All types of pen",
+    category: "stationery",
+    price: 0,
+    discount: "10% OFF",
+    image: "images/stationery/21.jpeg",
+    description: "All types of pens."
+},
+{
+    id: 22,
+    name: "Stapler",
+    category: "stationery",
+    price: 50,
+    discount: "10% OFF",
+    image: "images/stationery/22.jpeg",
+    description: "Stapler for office use."
+},
+{
+    id: 23,
+    name: "Mechanical Pencil",
+    category: "stationery",
+    price: 15,
+    discount: "10% OFF",
+    image: "images/stationery/23.jpeg",
+    description: "Mechanical pencil for writing."
+},
 ];
 
 
