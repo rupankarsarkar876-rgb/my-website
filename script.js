@@ -321,7 +321,106 @@ const products = [
     discount: "10% OFF",
     image: "images/stationery/32.jpeg",
     description: "Doms gift set for art enthusiasts."
-}
+},
+{
+    id: 33,
+    name: "Blocks",
+    category: "toys",
+    price: 59,
+    discount: "15% OFF",
+    image: "images/toys/33.jpeg",
+    description: "Colorful building blocks for children."
+},
+{
+    id: 34,
+    name: "Dot Gun",
+    category: "toys",
+    price: 59,
+    discount: "15% OFF",
+    image: "images/toys/34.jpeg",
+    description: "Colorful dot gun for children."
+},
+{
+    id: 35,
+    name: "Ball gun",
+    category: "toys",
+    price: 59,
+    discount: "15% OFF",
+    image: "images/toys/35.jpeg",
+    description: "Colorful ball gun for children."
+},
+{
+    id: 36,
+    name: "Toy Train",
+    category: "toys",
+    price: 49,
+    discount: "15% OFF",
+    image: "images/toys/36.jpeg",
+    description: "Colorful toy train for children."
+},
+{
+    id: 37,
+    name: "Binooculars",
+    category: "toys",
+    price: 59,
+    discount: "15% OFF",
+    image: "images/toys/37.jpeg",
+    description: "Binooculars for children."
+},
+{
+    id: 38,
+    name: "Water Dispenser",
+    category: "toys",
+    price: 59,
+    discount: "15% OFF",
+    image: "images/toys/38.jpeg",
+    description: "Designable water dispenser for children."
+},
+{
+    id: 39,
+    name: "Metal BackPush Car",
+    category: "toys",
+    price: 149,
+    discount: "15% OFF",
+    image: "images/toys/39.jpeg",
+    description: "Colorful metal backpush car for children."
+},
+{
+    id: 40,
+    name: "YoYo",
+    category: "toys",
+    price: 79,
+    discount: "15% OFF",
+    image: "images/toys/40.jpeg",
+    description: "Colorful yo-yo for children."
+},
+{
+    id: 41,
+    name: "Kitchen Set",
+    category: "toys",
+    price: 99,
+    discount: "15% OFF",
+    image: "images/toys/41.jpeg",
+    description: "Black & White kitchen set for children."
+},
+{
+    id: 42,
+    name: "Rope Pull Car",
+    category: "toys",
+    price: 29,
+    discount: "15% OFF",
+    image: "images/toys/42.jpeg",
+    description: " rope pull car for children."
+},
+{
+    id: 43,
+    name: "Auto Car",
+    category: "toys",
+    price: 89,
+    discount: "15% OFF",
+    image: "images/toys/43.jpeg",
+    description: "Auto car for children."
+},
 ];
 
 
