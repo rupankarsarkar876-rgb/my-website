@@ -288,7 +288,7 @@ const products = [
 },
 {
     id: 29,
-    name: "Doms Pencil colou",
+    name: "Doms Pencil colour",
     category: "stationery",
     price: 27,
     discount: "2% OFF",
@@ -421,7 +421,179 @@ const products = [
     image: "images/toys/43.jpeg",
     description: "Auto car for children."
 },
+{
+    id: 44,
+    name: "Mini Doctoer Set",
+    category: "toys",
+    price: 69,
+    discount: "15% OFF",
+    image: "images/toys/44.jpeg",
+    description: "Mini doctor set for children."
+},
+{
+    id: 45,
+    name: "Big Doctor Set",
+    category: "toys",
+    price: 119,
+    discount: "15% OFF",
+    image: "images/toys/45.jpeg",
+    description: "Big doctor set for children."
+},
+{
+    id: 46,
+    name: "JCB(Pull the rope)",
+    category: "toys",
+    price: 59,
+    discount: "15% OFF",
+    image: "images/toys/46.jpeg",
+    description: "JCB for children."
+},
+{
+    id: 47,
+    name: "Staring Video Game",
+    category: "toys",
+    price: 89,
+    discount: "15% OFF",
+    image: "images/toys/47.jpeg",
+    description: "Staring video game for children(Available in different colors)."
+},
+{
+    id: 48,
+    name: "Tank",
+    category: "toys",
+    price: 99,
+    discount: "15% OFF",
+    image: "images/toys/48.jpeg",
+    description: "Tank for children."
+},
+{
+    id: 49,
+    name: "Mobile Video Game",
+    category: "toys",
+    price: 49,
+    discount: "15% OFF",
+    image: "images/toys/49.jpeg",
+    description: "Mobile video game for children."
+},
+{
+    id: 50,
+    name: "Jcb",
+    category: "toys",
+    price: 149,
+    discount: "15% OFF",
+    image: "images/toys/50.jpeg",
+    description: "JCB for children."
+},
+{
+    id: 51,
+    name: "Small Fishing Game",
+    category: "toys",
+    price: 59,
+    discount: "15% OFF",
+    image: "images/toys/51.jpeg",
+    description: "Small fishing game for children."
+},
+{
+    id: 52,
+    name: "Cuute toy car",
+    category: "toys",
+    price: 59,
+    discount: "15% OFF",
+    image: "images/toys/52.jpeg",
+    description: "Cute toy car for children."
+},
+{
+    id: 53,
+    name: "Small blocks set ",
+    category: "toys",
+    price: 59,
+    discount: "15% OFF",
+    image: "images/toys/53.jpeg",
+    description: "Small blocks set for children."
+},
+{
+    id: 54,
+    name: "Shutter Gun",
+    category: "toys",
+    price: 49,
+    discount: "15% OFF",
+    image: "images/toys/54.jpeg",
+    description: "Shutter gun for children."
+},
+{
+    id: 55,
+    name: "Bullet Train",
+    category: "toys",
+    price: 59,
+    discount: "15% OFF",
+    image: "images/toys/55.jpeg",
+    description: "Bullet train for children."
+},
+{
+    id: 56,
+    name: "Big Blocks Set",
+    category: "toys",
+    price: 119,
+    discount: "15% OFF",
+    image: "images/toys/56.jpeg",
+    description: "Big blocks set for children."
+},
+{
+    id: 57,
+    name: "Small JCB",
+    category: "toys",
+    price: 49,
+    discount: "15% OFF",
+    image: "images/toys/57.jpeg",
+    description: "Small JCB for children."
+},
+{
+    id: 58,
+    name: "Cute barbie doll",
+    category: "toys",
+    price: 89,
+    discount: "15% OFF",
+    image: "images/toys/58.jpeg",
+    description: "Cute barbie doll."
+},
+{
+    id: 59,
+    name: "Rope Pull Car",
+    category: "toys",
+    price: 49,
+    discount: "15% OFF",
+    image: "images/toys/59.jpeg",
+    description: "Rope pull car for children."
+},
+{
+    id: 60,
+    name: "Black Die-cast Thar",
+    category: "toys",
+    price: 249,
+    discount: "15% OFF",
+    image: "images/toys/60.jpeg",
+    description: "Black die-cast Thar(Light and Sound)."
+},
+{
+    id: 61,
+    name: "Laser Llight",
+    category: "toys",
+    price: 149,
+    discount: "15% OFF",
+    image: "images/toys/61.jpeg",
+    description: "Laser Llight for children."
+},
+{
+    id: 62,
+    name: "Black Die-cast Bike",
+    category: "toys",
+    price: 149,
+    discount: "15% OFF",
+    image: "images/toys/62.jpeg",
+    description: "Black die-cast bike(Available in 2 colors)."
+},
 ];
+
 
 
 /* =====================================================
