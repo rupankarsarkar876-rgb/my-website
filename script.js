@@ -397,7 +397,7 @@ const products = [
         name: "Water Dispenser",
         category: "toys",
         price: 59,
-        stock: 10,
+        stock: 0,
         discount: "15% OFF",
         image: "images/toys/38.jpeg",
         description: "Designable water dispenser for children."
